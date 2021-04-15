@@ -38,7 +38,7 @@ public class FirstNameTest {
     public void validateFirstName() {
         UserValidator userValidator = new UserValidator();
         Assert.assertEquals(this.expected,
-                userValidator.validateFirstLastName(this.firstName));
+                userValidator.validateFirstName(this.firstName));
     }
 
 }

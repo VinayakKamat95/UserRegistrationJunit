@@ -36,7 +36,7 @@ public class LastNameTest {
     public void validateLastName() {
         UserValidator userValidator = new UserValidator();
         Assert.assertEquals(this.expected,
-                userValidator.validateFirstLastName(this.lastName));
+                userValidator.validateLastName(this.lastName));
     }
 
 }
