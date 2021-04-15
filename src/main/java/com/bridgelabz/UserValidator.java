@@ -14,7 +14,7 @@ public class UserValidator {
     // taking pattern as regex string and matcher as first name parameter to check
     // result in boolean format if match true else false
     // return this result back to FirstNameTest.java*//
-    public boolean validateFirstName(String firstName) {
+    public boolean validateFirstLastName(String firstName) {
         Pattern pattern = Pattern.compile(FIRST_LAST_NAME_PATTERN);
         Matcher matcher = pattern.matcher(firstName);
         boolean result = ((Matcher) matcher).matches();
