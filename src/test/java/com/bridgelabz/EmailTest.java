@@ -20,7 +20,7 @@ public class EmailTest {
         this.expected = result;
     }
 
-    /*Parameters for class in list format is provided in the inputFirst method*/
+    /*Parameters for class in list format is provided in the inputEmail method*/
     @Parameterized.Parameters
     public static List inputEmail(){
         List list = new ArrayList();
