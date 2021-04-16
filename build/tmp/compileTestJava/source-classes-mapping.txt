@@ -2,3 +2,5 @@ com/bridgelabz/LastNameTest.java
  com.bridgelabz.LastNameTest
 com/bridgelabz/FirstNameTest.java
  com.bridgelabz.FirstNameTest
+com/bridgelabz/EmailTest.java
+ com.bridgelabz.EmailTest
