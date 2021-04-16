@@ -2,6 +2,8 @@ com/bridgelabz/MobileNumberTest.java
  com.bridgelabz.MobileNumberTest
 com/bridgelabz/LastNameTest.java
  com.bridgelabz.LastNameTest
+com/bridgelabz/PasswordTest.java
+ com.bridgelabz.PasswordTest
 com/bridgelabz/FirstNameTest.java
  com.bridgelabz.FirstNameTest
 com/bridgelabz/EmailTest.java
