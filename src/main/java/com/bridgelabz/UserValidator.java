@@ -10,6 +10,8 @@ public class UserValidator {
     private final String FIRST_LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{2,10}";
     //*Regex Pattern to Check Email*//
     private final String EMAIL_PATTERN = "^[a-z]+[.]{1}[a-z]*@[a-z]{2}[.]{1}[co]+[.]?[a-z]{0,2}$";
+    //*Regex Pattern to Check Email*//
+    private final String MOBILE_PATTERN = "^[0-9]{2}\\s{1}[0-9]{10}$";
     Pattern pattern;
 
     //*Method to validate first name
@@ -41,6 +43,17 @@ public class UserValidator {
     public boolean validateEmail(String email) {
         Pattern pattern = Pattern.compile(EMAIL_PATTERN);
         Matcher matcher = pattern.matcher(email);
+        boolean result = ((Matcher) matcher).matches();
+        return result;
+    }
+
+    //*Method to validate mobile number
+    // taking pattern as regex string and matcher as mobile number parameter to check
+    // result in boolean format if match true else false
+    // return this result back to MobileNumberTest.java *//
+    public boolean validateMobileNumber(String mobile_number) {
+        Pattern pattern = Pattern.compile(MOBILE_PATTERN);
+        Matcher matcher = pattern.matcher(mobile_number);
         boolean result = ((Matcher) matcher).matches();
         return result;
     }

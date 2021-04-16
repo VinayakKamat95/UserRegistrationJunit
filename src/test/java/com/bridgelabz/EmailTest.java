@@ -10,7 +10,7 @@ import java.util.List;
 
 @RunWith(Parameterized.class)
 public class EmailTest {
-    //*initializing fields firstname and expected(result boolean)*//
+    //*initializing fields email and expected(result boolean)*//
     String email;
     boolean expected;
 
