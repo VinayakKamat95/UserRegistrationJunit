@@ -9,7 +9,7 @@ public class UserValidator {
     // 1st Later caps and minimum 3 chars*//
     private final String FIRST_LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{2,10}";
     //*Regex Pattern to Check Email*//
-    private final String EMAIL_PATTERN = "^[a-z]+[.]{1}[a-z]*@[a-z]{2}[.]{1}[co]+[.]?[a-z]{2}$";
+    private final String EMAIL_PATTERN = "^[a-z]+[.]{1}[a-z]*@[a-z]{2}[.]{1}[co]+[.]?[a-z]{0,2}$";
     Pattern pattern;
 
     //*Method to validate first name

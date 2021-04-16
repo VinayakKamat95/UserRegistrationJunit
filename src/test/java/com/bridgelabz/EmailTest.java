@@ -26,6 +26,10 @@ public class EmailTest {
         List list = new ArrayList();
         
         list.add(new Object[]{"abc.xyz@bl.co.in",true});
+        list.add(new Object[]{"abc.@bl.co.in",true});
+        list.add(new Object[]{"abc.@bl.co",true});
+        list.add(new Object[]{".xyz@bl.co.in",false});
+        list.add(new Object[]{"abc.xyz@bl..in",false});
         return list;
     }
 
